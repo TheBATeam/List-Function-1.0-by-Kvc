@@ -1,0 +1,23 @@
+
+ This function helps in Adding a little GUI effect into your batch program...
+ It Prints simple List on the cmd console at specified X Y co-ordinate...
+ After printing, it stops For User 'mouse' input... ANd returns the Item No.
+ Which is clicked by User... 
+ 
+ IF No Item is clicked, or clicked anywhere else... then it will return 0 in 
+ the 'Errorlevel' Variable.
+
+ Syntax: call List [X] [Y] [color] [Items 1] [Items 2] ...
+ Syntax: call List [help | /? | -h | -help]
+ Syntax: call List ver
+
+ Where:-
+ X		= X-ordinate of top-left corner of List
+ Y		= Y-co_ordinate of top-left corner of List
+ ver		= Version of List function
+ Items #	= The Items to display in the List... They maybe Enclosed within "".
+
+ This version 1.0 of List function contains much more GUI Capabilities.
+ As it uses batbox.exe and calls it only once at the end of calculation...
+ Visit www.thebateam.org for more...
+ #Kvc with #TheBATeam
